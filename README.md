@@ -4,8 +4,7 @@ Pelit kuten nsnake, nudoku ja pacman4console asentuvat automaattisesti. Pistetie
 
 Tämä toimii miniprojektina [Palvelinten Hallinta](https://terokarvinen.com/palvelinten-hallinta/#h5-miniprojekti) -kurssille. 
 
-![h532](https://github.com/user-attachments/assets/0f57a200-fa69-4e33-864a-9af9279c9825)
-![h531](https://github.com/user-attachments/assets/ea96c150-c26b-4c3f-ba4c-102b00a75b98)
+![h532](https://github.com/user-attachments/assets/0f57a200-fa69-4e33-864a-9af9279c9825)![h531](https://github.com/user-attachments/assets/ea96c150-c26b-4c3f-ba4c-102b00a75b98)
 
 
 
