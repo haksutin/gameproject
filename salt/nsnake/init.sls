@@ -6,6 +6,11 @@ install-terminal-games:
       - nudoku
       - pacman4console
 
+# dos2unix työkalun asennus
+install-dos2unix:
+  pkg.installed:
+    - name: dos2unix
+
 # peli-valikko
 copy-menu:
   file.managed:
@@ -27,3 +32,16 @@ create-score-directory:
     - user: vagrant
     - group: vagrant
     - mode: 755
+
+# Rivinvaihtojen korjaus
+fix-line-endings-play:
+  cmd.run:
+    - name: dos2unix /usr/local/bin/play-terminal-games
+    - require:
+      - file: copy-menu
+
+fix-line-endings-scores:
+  cmd.run:
+    - name: dos2unix /usr/local/bin/highscores
+    - require:
+      - file: create-highscores

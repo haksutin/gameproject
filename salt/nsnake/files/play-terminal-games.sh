@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+echo
 echo "=== TERMINAL ARCADE ==="
 echo
 read -p "Enter your name: " player
